@@ -1,0 +1,6 @@
+Groupe numéro : 4
+
+Etudiant 1 (référent du groupe)   nom : Nezzar Dalia  -   email : dalia.nezzar@edu.univ-fcomte.fr
+
+URL du site **github page** : https://dnezzar-iut90.github.io/Project-Deezer/
+URL du projet **github** : https://github.com/dnezzar-iut90/Project-Deezer.git

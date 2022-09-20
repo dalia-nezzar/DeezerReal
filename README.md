@@ -1,5 +1,5 @@
-# Project-Deezer
-Titre du projet : Project-Deezer
+# DeezerReal
+Titre du projet : DeezerReal
 
 Etudiant 1 (référent du groupe) :  [Dalia Nezzar](mailto:dnezzar@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 Etudiant 2 : [Majourel Ambre ](mailto:amajoure@edu.univ-fcomte.fr?subject=SAE_1_05_06)

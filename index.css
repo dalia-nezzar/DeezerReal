@@ -125,7 +125,8 @@ a:hover{
     height: 500px;
     position: absolute;
     margin-top:4%;
-    transform: translateX(170%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 .button-visite {
         font-weight: bold;

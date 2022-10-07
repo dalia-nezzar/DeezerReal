@@ -10,5 +10,6 @@ Référent du groupe : [Nezzar Dalia ](mailto:dalia.nezzar@edu.univ-fcomte.fr?su
 [Reymond Calixte ](mailto:calixte.reymond@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 ### Zonings et Wireframes
+<img src="img/Design 1.jpg" alt="zoning et wireframe 1" title="Zoning et wireframe 1">
 
 ### Prototype

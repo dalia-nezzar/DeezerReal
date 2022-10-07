@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap%27');
+
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: rgb(58, 80, 107) !important;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    border-bottom-style: solid;
+    border-bottom-width: 5%;
+    border-bottom-color: white;
+}
+/*css pour l'image de fons*/
+.haut{
+    top: 0;
+}
+.img{
+    position: fixed;
+    z-index: 0;
+}
+.bas{
+    top: 0;
+    transform: translateY(66%);
+    position: fixed;
+}
+h1.fixe{
+    visibility: hidden;
+}
+.gauche{
+    left: 0px;
+}
+.droite{
+    right: 0px;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+
+/*css pour le haut de page a plus de 1000px*/
+
+.mainhead{
+    z-index: 10;
+    display: grid;
+    grid-template-rows: 25% 35% 1fr;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 30%;
+    max-height: 500px;
+    background: white;
+    color: rgb(11, 19, 43);
+    position: relative;
+    left: 0;
+}
+
+.test{
+   justify-content: center;
+}
+
+.menu{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 0;
+    align-items: center;
+}
+
+.boxhead{
+    font-size: 30px;
+    width: fit-content;
+    margin-bottom: 10px;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.boxhead1:hover{
+    text-decoration: underline;
+}
+.boxhead2:hover{
+    text-decoration: underline;
+}
+.boxhead3:hover{
+    text-decoration: underline;
+}
+.boxhead4:hover{
+    text-decoration: underline;
+}
+.boxhead5:hover{
+    text-decoration: underline;
+}
+
+
+/* le logo deezer qui sera nore logo apres*/
+.logo1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+.imglogo1{
+    height: 90px;
+    width: 120px;
+}
+
+
+
+
+
+
+
+/*barre de navigation*/
+
+.menu.fixed{
+    position:fixed;
+    top:0;
+    z-index:1000;
+    height: 12%;
+    min-height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: white;
+    width: 100%;
+  }
+
+
+
+  /*bouton pour remonter la page */
+
+.btop{
+    height: 20px; 
+}
+
+.scrollUp{
+    position: fixed;
+    visibility: hidden;
+    background: transparent;
+}  
+.scrollUp.visible{
+    z-index: 1000;
+    visibility: visible;
+    top: 3em;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 50%;
+}
+
+/*  fin de la parite pour le bouton sroll up */
+/* fin css de la tete */
+
+/* css pour le corps(le carré blanc) */
+
+
+
+
+
+
+.corps{
+    height: auto;
+    z-index: 1;
+    position: relative;
+    border: 100px;
+    min-height: 1200px;
+    margin: 5%;
+    margin-top: 100px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 5);
+    background: white;
+}
+
+/* votre css ici */
+
+
+
+/* fin de votre css*/
+/* fin css pour le corps*/
+
+/*css pied de page*/
+
+.footer{
+    position: relative;
+    margin-top: 10%;
+    min-height: fit-content;
+    height: 200px;
+    z-index: 1000;
+    bottom: 0;
+    transform: translateY(5px);
+    background: white;
+}
+
+/* cache le menu bootstrap*/
+.dropdown{
+    visibility: hidden;
+    position: absolute;
+    z-index: 0;
+}
+
+/*palette de couleur (useless c'est juste pour l'avoir dans le tab)*/
+.t1{
+    background: rgb(112, 254, 232);
+    background: rgb(92, 191, 190);
+    background: rgb(58, 80, 107);
+    background: rgb(28, 37, 65);
+    background: rgb(11, 19, 43);
+}
+
+
+@media screen and (max-width: 1000px){
+
+    /* css tete */
+    .mainhead{
+        top: 0;
+        width: 100%;
+        position: fixed;
+        grid-template-rows: none;
+        grid-template-columns: 33% 33% 1fr;
+        align-items: center;
+    }
+
+    .menu{
+        grid-row: 1;
+        grid-column: 1;
+    }
+    h1{
+        grid-column: 2;
+    }
+    .logo1{
+        grid-column: 3;
+    }
+   
+
+
+    /* css menu déroulant */
+    .boxhead{ /* cache l'ancien menu*/
+        visibility: hidden;
+        position: fixed;
+        z-index: 0;
+    }
+
+        /* menu bootstrap*/
+    .dropdown{
+        visibility: visible;
+        position: relative;
+        z-index: 10;
+    }
+
+    
+
+    /*css corps*/
+    .corps{
+        margin-top: 50%;
+    }
+
+    
+}

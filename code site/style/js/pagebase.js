@@ -1,8 +1,7 @@
-
-const mainhead = document.querySelector('.mainhead');
-const menu2 = document.querySelector('.menu');
-let tmenu = menu2.offsetHeight;
-let thead =  mainhead.offsetHeight;
+const menu2 = document.querySelector('.menut');
+const logo_titre = document.querySelector('.id');
+let ht = logo_titre.offsetHeight;
+let hm = menu2.offsetHeight;
 
 
 
@@ -13,12 +12,12 @@ $(function(){
     $(window).scroll(function (event) {
       var y = $(this).scrollTop();
     
-      if (y >= (thead - tmenu)) {
-        $('.menu').addClass('fixed');
+      if (y >= (ht)) {
+        $('.menut').addClass('fixed');
       } else {
-        $('.menu').removeClass('fixed');
+        $('.menut').removeClass('fixed');
       }
-      if(y >= (thead + 110)){
+      if(y >= (ht + hm)){
         $('.scrollUp').addClass('visible');
       }
       else {

@@ -1,40 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap%27');
 
-a{
+.boxhead a{
     text-decoration: none;
     text-decoration-line: none;
-    color: rgb(58, 80, 107) !important;
+    color: rgb(58, 80, 107);
+}
+
+.boxhead a:hover{
+    color: rgb(242, 102, 25);
 }
 
 h1{
     text-align: center;
-    font-size: 80px;
-    margin-top: 3%;
-    margin-bottom: 5%;
+    font-size: 80px !important;
     border-bottom-color: white;
 }
-/*css pour l'image de fons*/
-.haut{
-    top: 0;
-}
-.img{
+
+
+#background-video {
+    height: 120%;
+    width: 120%;
+    object-fit: cover;
     position: fixed;
-    z-index: 0;
-}
-.bas{
     top: 0;
-    transform: translateY(66%);
-    position: fixed;
+    left: 0;
+    transform: translateX(-2%);
+    bottom: 0;
+    z-index: -1;
+    filter: blur(5px);
+    }
+
+.titre{
+    margin-top: 2%;
 }
-h1.fixe{
-    visibility: hidden;
+
+
+
+.menut a{
+    padding: 0.5em 0;
+    position: relative;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    list-style: outside none none;
+    padding: 0;
 }
-.gauche{
-    left: 0px;
+
+.menut a:before,
+.menut a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
-.droite{
-    right: 0px;
+
+.menut a:after {
+    left: 0;
+    top: 0;
+    padding: 0.5em 0;
+    position: absolute;
+    content: attr(data-hover);
+    white-space: nowrap;
+    max-width: 0%;
+    overflow: hidden;
 }
+.menut a:hover:before, .menut .current a:before {
+    opacity: 1;
+    width: 100%;
+}
+.menut a:hover:after,
+.menut .current a:after {
+    max-width: 100%;
+}
+
 
 
 body{
@@ -42,17 +79,22 @@ body{
     font-family: 'Raleway';
 }
 
+.test{
+    margin: 2%;
+    height: fit-content;
+    justify-self: center;
+}
 
 /*css pour le haut de page a plus de 1000px*/
 
 .mainhead{
     z-index: 10;
     display: grid;
-    grid-template-rows: 30% 40% 1fr;
+    grid-template-rows:80% 20%;
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    height: 30%;
+    height: 60vh;
     max-height: 500px;
     background: white;
     color: rgb(11, 19, 43);
@@ -60,12 +102,12 @@ body{
     left: 0;
 }
 
-.test{
+.titre{
    justify-content: center;
 }
 
-.menu{
-    
+.menut{
+    grid-row: 2;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -85,6 +127,11 @@ body{
     text-decoration: none;
     text-align: center;
 }
+
+.boxhead:hover{
+    color: rgb(242, 102, 25);
+}
+
 .boxhead1:hover{
     text-decoration: underline;
 }
@@ -102,31 +149,23 @@ body{
 }
 
 
-/* le logo deezer qui sera nore logo apres*/
 .logo1{
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row: 1; 
     text-align: center;
 }
 .imglogo1{
-    height: 90px;
-    width: 120px;
+    margin-top: 1%;
+    width: 20%; 
 }
-
-
-
-
-
 
 
 /*barre de navigation*/
 
-.menu.fixed{
+.menut.fixed{
     position:fixed;
     top:0;
     z-index:1000;
-    height: 12%;
-    min-height: 35px;
+    height: 11.931%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -150,7 +189,7 @@ body{
 .scrollUp.visible{
     z-index: 1000;
     visibility: visible;
-    top: 3em;
+    top: 4em;
     left: 50%;
     transform: translate(-50%);
     opacity: 50%;
@@ -168,15 +207,15 @@ body{
 
 .corps{
     height: auto;
-    z-index: 1;
     position: relative;
     border: 100px;
     min-height: 1200px;
     margin: 5%;
     margin-top: 100px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 5);
     background: white;
 }
+
+
 
 /* votre css ici */
 
@@ -195,13 +234,14 @@ body{
     z-index: 1000;
     bottom: 0;
     transform: translateY(5px);
-    background: white;
+    background: rgb(28, 37, 65);
 }
 
 /* cache le menu bootstrap*/
 .dropdown{
+    height: 0;
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     z-index: 0;
 }
 
@@ -221,23 +261,18 @@ body{
     .mainhead{
         top: 0;
         width: 100%;
+        height: fit-content;
         position: fixed;
-        grid-template-rows: none;
-        grid-template-columns: 33% 33% 1fr;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
         align-items: center;
+
     }
 
-    .menu{
-        grid-row: 1;
-        grid-column: 1;
+    .menud{
+        margin-left: 10%;
     }
-    h1{
-        grid-column: 2;
-    }
-    .logo1{
-        grid-column: 3;
-    }
-   
 
 
     /* css menu déroulant */
@@ -253,12 +288,13 @@ body{
         position: relative;
         z-index: 10;
     }
-
     
 
     /*css corps*/
     .corps{
-        margin-top: 50%;
+        top: 30vh;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     

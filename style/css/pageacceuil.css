@@ -45,7 +45,6 @@ a:hover{
     text-decoration: none;
     display: inline-block;
     list-style: outside none none;
-    margin: 0 1.5em;
     padding: 0;
 }
 
@@ -88,14 +87,10 @@ a:hover{
 .boxhead2:hover{
     color:white !important;
 }
-.boxhead3:hover{
-
-}
-.boxhead4:hover{
-
-}
-.boxhead5:hover{
-
+.dropdown{
+    visibility: hidden;
+    position: fixed;
+    z-index: -1;
 }
 
 .logo1{
@@ -109,13 +104,12 @@ a:hover{
 }
 
 #background-video {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     object-fit: cover;
     position: fixed;
-    left: 0;
-    right: 0;
     top: 0;
+    left: 0;
     bottom: 0;
     z-index: -1;
     }

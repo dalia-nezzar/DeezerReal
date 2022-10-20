@@ -20,10 +20,9 @@
     position: relative;
     display: flex;
     justify-content: center;
-    border-color: solid;
+    border-style: solid;
     gap: 60px;
     margin: auto;
-    padding: auto;
     width: 70%;
     color: white;
 }

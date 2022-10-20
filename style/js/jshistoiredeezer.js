@@ -45,14 +45,6 @@ $(function(){
 
 
                     progressbar.value = window.scrollY - 150;
-                    $('.d1').css('color', "rgb(112, 254, 232)");
-
-                if(progressbar.value <= 22){
-                    $('.d2').css('color', "white");
-                }
-                else{
-                    $('.d2').css('color', "rgb(112, 254, 232)");
-                }
                 
                isScrolling = false;
     

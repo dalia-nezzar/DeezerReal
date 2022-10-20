@@ -37,7 +37,7 @@ progress::-webkit-progress-bar {
 
 progress::-webkit-progress-value {
     grid-column: 2;
-	background-color: rgb(112, 254, 232);
+	background-color: rgba(244,100,28,1);
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
 }

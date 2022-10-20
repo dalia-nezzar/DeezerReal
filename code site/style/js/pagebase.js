@@ -1,7 +1,4 @@
-const menu2 = document.querySelector('.menut');
-const logo_titre = document.querySelector('.id');
-let ht = logo_titre.offsetHeight;
-let hm = menu2.offsetHeight;
+const beforenav = $(".id").height();
 
 
 
@@ -12,12 +9,12 @@ $(function(){
     $(window).scroll(function (event) {
       var y = $(this).scrollTop();
     
-      if (y >= (ht)) {
+      if (y >= beforenav) {
         $('.menut').addClass('fixed');
       } else {
         $('.menut').removeClass('fixed');
       }
-      if(y >= (ht + hm)){
+      if(y >= beforenav){
         $('.scrollUp').addClass('visible');
       }
       else {

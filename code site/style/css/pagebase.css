@@ -189,7 +189,7 @@ body{
 .scrollUp.visible{
     z-index: 1000;
     visibility: visible;
-    top: 4em;
+    top: 15%;
     left: 50%;
     transform: translate(-50%);
     opacity: 50%;

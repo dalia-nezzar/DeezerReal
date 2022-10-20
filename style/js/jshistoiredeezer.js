@@ -74,7 +74,7 @@ $(function(){
                             reverse: true
                         })
                         .setTween(tween)
-                        .addIndicators()
+                        // .addIndicators()
                         .addTo(controller)
                     }
     

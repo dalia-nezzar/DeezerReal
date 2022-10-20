@@ -203,6 +203,7 @@ progress::-webkit-progress-value {
     grid-row: 16;
     grid-column: 3;
     width: 35%;
+    margin-bottom: 10%;
 }
 
 .logochange{

@@ -1,0 +1,66 @@
+.corps{
+    height: fit-content;
+    padding: 2%;
+    position: relative;
+    border: 100px;
+    min-height: 2200px;
+    margin: 5%;
+    margin-top: 100px;
+    background: white;
+}
+
+
+
+/* votre css ici */
+
+h2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.box{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.boxt{
+    position: absolute;
+    text-align: center;
+    height: fit-content;
+    padding: 2%;
+    min-height: 100px;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    background: rgb(28, 37, 65);
+    color: white;
+}
+
+.boxo{
+    position: relative;
+    height: fit-content;
+    margin-top: 5%;
+    text-align: center;
+    justify-self: center;
+}
+
+.imo{
+    width: 25%;
+    height: 25%;
+}
+
+
+.text{
+    margin: 4%;
+    text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+    .corps{
+        grid-template-columns: 10% 90%;
+    }
+    .boxo{
+        visibility: visible;
+    }
+
+}

@@ -1,0 +1,176 @@
+.titre1{
+    transform: translateY(40%) ;
+}
+
+.titre2{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.titre3{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+
+.container, .container2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-color: solid;
+    gap: 60px;
+    margin: auto;
+    padding: auto;
+    width: 70%;
+    color: white;
+}
+.card {
+    padding: 40px;
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 40px;
+}
+
+.card1, .card4{
+    background: linear-gradient(90deg, rgba(52,91,139,1) 0%, rgba(84,212,228,1) 80%);
+
+
+}
+
+.card2, .card3{
+    background: linear-gradient(90deg, rgba(244,179,43,1) 5%, rgba(244,100,28,1) 94%);
+}
+
+.card-footer{
+    padding-top: 40px;
+    border-top: hidden;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+.card-header{
+    background-color: transparent;
+    border-top: hidden;
+    border-bottom: hidden;
+    padding-bottom: 40px;
+}
+
+.titrecard{
+    text-align: center;
+    font-size: 42px;
+}
+
+.bouttonoffre{
+    display: inline-block;
+    text-align: center;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    }
+
+.bouttonoffre:hover{
+
+    transition: all 100ms ease-in-out;
+    border: solid 5px white;
+    background-color: white;
+}
+
+.check-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.check-list li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.check-list {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  .check-list li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    
+  }
+
+  .check-list li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 10px;
+    height: 16px;
+    border-width: 0 2px 2px 0;
+    border-style: solid;
+    border-color: white;
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+}
+
+
+.textepascocher{
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.audio2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
+
+.img10{
+    height: 90%; 
+    width: 120%; 
+    border-radius: 3%;
+}
+
+.img20{
+    width: 92%; 
+    border-radius: 3%;
+}
+
+.container-option{
+    color: black;
+    gap:30%;
+}
+
+.card5{
+    background-color: white;
+    border: solid 10px;
+    border-color: #54D4E4;
+}
+
+.card6{
+    background-color: white;
+    border: solid 10px;
+    border-color: #f4b32b;
+}
+
+.audio2{
+    gap:20px;
+    padding-top: 30px;
+}
+
+.container-option{
+    padding-bottom: 30px;
+}

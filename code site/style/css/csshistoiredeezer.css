@@ -5,6 +5,10 @@
     height: fit-content;
 }
 
+.temoin{
+    grid-row: 1;
+    height: 100%;
+}
 h2{
     margin-top: 2%;
     margin-bottom: 5%;
@@ -104,8 +108,10 @@ progress::-webkit-progress-value {
     position: relative;
 }
 
+.box{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
 .boxt{
-    position: absolute;
     grid-column: 1;
     text-align: center;
     height: fit-content;
@@ -115,7 +121,6 @@ progress::-webkit-progress-value {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 3px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     background: rgb(28, 37, 65);
     color: white;
 }
@@ -124,27 +129,100 @@ progress::-webkit-progress-value {
     position: relative;
     height: fit-content;
     margin-top: 5%;
-    text-align: center;
+    justify-self: center;
+}
+
+.imo{
+    width: 100%;
 }
 
 .b1o{
     grid-row: 2;
     grid-column: 3;
+    width: 35%;
 }
 
 .b2o{
     grid-row: 3;
     grid-column: 1;
+    width: 80%;
+}
+.b4o{
+    grid-row: 5;
+    grid-column: 1;
+    width: 80%;
 }
 
-.imo{
+.b5o{
+    grid-row: 6;
+    grid-column: 3;
     width: 80%;
-    height: auto;
+    background: none;
+    box-shadow: none;
+    height: fit-content;
 }
 
-.imo2{
+.b6o{
+    grid-row: 7;
+    grid-column: 1;
     width: 80%;
-    height: auto;
+}
+
+.b8o{
+    grid-row: 9;
+    grid-column: 1;
+    width: 80%;
+    background: none;
+    box-shadow: none;
+    height: fit-content;
+}
+
+.b11o{
+    grid-row: 12;
+    grid-column: 3;
+    width: 80%;
+}
+.b12o{
+    grid-row: 13;
+    grid-column: 1;
+    width: 80%;
+}
+
+.b13o{
+    grid-row: 14;
+    grid-column: 3;
+    width: 80%;
+}
+
+.b14o{
+    grid-row: 15;
+    grid-column: 1;
+    width: 80%;
+}
+.b15o{
+    grid-row: 16;
+    grid-column: 3;
+    width: 35%;
+}
+
+.logochange{
+    display: grid;
+    width:fit-content;
+    grid-template-rows: 50% 50%;
+    position: relative;
+    justify-content: center;
+}
+.imo13{
+    width: 96%;
+    margin: 2%;
+}
+.old{
+    grid-row: 1;
+    margin-bottom: 5%;
+}
+.new{
+    grid-row: 2;
+
 }
 
 .b2{

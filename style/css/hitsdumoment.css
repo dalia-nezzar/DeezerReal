@@ -3,7 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 .opensans {
   font-family: "Open Sans", sans-serif;
@@ -365,39 +364,50 @@ h5{
 /* fin css pour le corps*/
 
 /*css pied de page*/
-.footer-dark {
-    padding:50px 0;
-    color:#f0f9ff;
-    background-color:#2c445c;
-  }
-  
-  .footer-dark h3 {
-    margin-top:0px;
-    margin-bottom:2%;
-    font-weight:bold;
-    font-size:16px;
-  }
-  
-  .footer-dark ul {
-    text-align:center;
-    padding:0;
-    list-style:none;
-    line-height:1.6;
-    font-size:25px;
-    margin-bottom:0;
-  }
-  
-  .footer-dark ul a {
-    text-align:center;
-    color:inherit;
-    text-decoration:none;
-    opacity:0.6;
-  }
-  
-  .footer-dark ul a:hover {
-    text-align:center;
-    opacity:0.8;
-  }
+a.link{
+  text-decoration: none !important;
+  text-decoration-line: none;
+  margin: 15%;
+}
+
+
+a.btconta{
+  text-decoration: none !important;
+  text-decoration-line: none;
+  color: black;
+}
+
+.wwoo{
+  max-width: 20px;
+  max-height: 20px;
+}
+
+section{
+  display: flex;
+  grid-row: 1;
+  justify-content: center;
+}
+.containerfoot{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-items: center;
+}
+
+.btconta{
+  grid-row: 2;
+  position: relative;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.btconta:hover{
+  background: lightgrey;
+}
+
   
   @media (max-width:767px) {
     .footer-dark .item:not(.social) {

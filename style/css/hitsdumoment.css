@@ -9,6 +9,11 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.boxhead1 a{
+  color: rgb(242, 102, 25);
+  text-decoration: underline;
+}
+
 .boxhead a{
     text-decoration: none;
     text-decoration-line: none;

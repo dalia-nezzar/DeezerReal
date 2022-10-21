@@ -8,16 +8,18 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.boxhead1 a{
-  color: rgb(242, 102, 25);
-  text-decoration: underline;
+.boxhead a{
+  text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(58, 80, 107);
 }
 
-.boxhead a{
-    text-decoration: none;
-    text-decoration-line: none;
-    color: rgb(58, 80, 107);
+.boxhead1 a{
+  color: rgb(242, 102, 25);
+  text-decoration: underline !important;
 }
+
+
 
 .boxhead a:hover{
     color: rgb(242, 102, 25);

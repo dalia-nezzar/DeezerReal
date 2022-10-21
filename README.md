@@ -13,19 +13,19 @@ Référent du groupe : [Nezzar Dalia ](mailto:dalia.nezzar@edu.univ-fcomte.fr?su
 ## Accueil
 Par Nezzar Dalia, contenant un bouton permettant d'atterir directement sur "Hits du Moment".
 
-## Hits du Moment
+### Hits du Moment
 Par Nezzar Dalia, page assez simpliste contenant un podium des chansons les plus écoutées sur Deezer dans le monde, puis quelques play-lists, et enfin un bouton permettant d'être redirigé sur la page des services.
 
-## Services Proposés
+### Services Proposés
 Par Mechroubi M'hammed, page présentant les différentes options d'abonnements proposées par Deezer, et quelques-unes méconnues, gratuites.
 
-## Histoire
+### Histoire
 Par Reymond Calixte, page contenant une timeline faîte en javascript relatant de tous les évènements les plus importants de Deezer, à commencer évidemment par sa création.
 
-## Environnement
+### Environnement
 Par Majourel Ambre, page présentant l'environnement entrepreuneriale de Deezer, leur CEO, et notamment les valeurs que l'entreprise prône.
 
-## Économie
+### Économie
 Par Dureux Quentin, page expliquant l'économie actuelle et précédente de Deezer, leurs partenaires etc.
 
 ## Zonings et Wireframes

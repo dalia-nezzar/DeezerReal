@@ -9,8 +9,8 @@ Référent du groupe : [Nezzar Dalia ](mailto:dalia.nezzar@edu.univ-fcomte.fr?su
 [Dureux Quentin ](mailto:quentin.dureux@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
 [Reymond Calixte ](mailto:calixte.reymond@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
-### Pages
-## Accueil
+## Pages
+### Accueil
 Par Nezzar Dalia, contenant un bouton permettant d'atterir directement sur "Hits du Moment".
 
 ### Hits du Moment

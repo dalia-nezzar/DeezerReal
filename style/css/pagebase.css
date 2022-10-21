@@ -1,9 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap%27');
 
+
 .boxhead a{
     text-decoration: none;
     text-decoration-line: none;
     color: rgb(58, 80, 107);
+}
+
+a.link{
+    text-decoration: none !important;
+    text-decoration-line: none;
+    margin: 15%;
+}
+
+a.btconta{
+    text-decoration: none !important;
+    text-decoration-line: none;
+    color: black;
 }
 
 .boxhead a:hover{
@@ -233,11 +246,10 @@ body{
     position: relative;
     margin-top: 10%;
     min-height: fit-content;
-    height: 200px;
+    height: auto;
     z-index: 1000;
     bottom: 0;
-    transform: translateY(5px);
-    background: rgb(28, 37, 65);
+    transform: translateY(15px);
 }
 
 /* cache le menu bootstrap*/
@@ -256,6 +268,38 @@ body{
     background: rgb(28, 37, 65);
     background: rgb(11, 19, 43);
 }
+
+.wwoo{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+.containerfoot{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+.btconta{
+    grid-row: 2;
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.btconta:hover{
+    background: lightgrey;
+}
+
+
 
 
 @media screen and (max-width: 1000px){

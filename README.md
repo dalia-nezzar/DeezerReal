@@ -32,4 +32,4 @@ Par Dureux Quentin, page expliquant l'économie actuelle et précédente de Deez
 ![Design 1](https://user-images.githubusercontent.com/113182098/194514197-94dfa3ad-d6bd-4ef3-97ee-386da8fb9e82.png)
 
 ## Prototype
-![prototype](https://user-images.githubusercontent.com/113182098/194514554-7b706ef7-e9e2-4e50-8928-f09b07f8813f.png)
+![Prototype](https://user-images.githubusercontent.com/113182098/197155315-495d5025-19f0-4a2e-b197-b596f6eb2704.png)
